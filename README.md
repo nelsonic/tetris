@@ -86,7 +86,7 @@ main =
     show 42
 ```
 
-### 3. Install 
+### 3. Install `elm-graphics` Package
 
 In your terminal, type:
 

@@ -1,6 +1,6 @@
 module Block exposing (..)
 
-import Html exposing (..)
+import Element exposing (show)
 
 
 main =
