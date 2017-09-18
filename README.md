@@ -31,7 +31,8 @@ And, read the history: https://en.wikipedia.org/wiki/Tetris
 
 ### 0. Setup
 
-Start by installing elm: https://guide.elm-lang.org/install.html
+Start by installing elm (_if you do not already have it on your computer_): https://guide.elm-lang.org/install.html 
+<br />
 Ensure that you have a text editor installed, 
 in our case we are using Atom: https://atom.io
 
@@ -45,10 +46,14 @@ npm install elm-format -g
 ```sh
 apm install elm-format
 ```
+Then _re-start_ Atom and try saving a `.elm` file and
+if it gets _re-formatted_, then everything worked.
+
 If you get "_stuck_" installing the packages,
 google for the error message you see and if you
 are _still_ stuck after 10mins of googling,
 open an issue on GitHub: https://github.com/nelsonic/tetris/issues
+
 
 ### 1. Run `elm-reactor`
 
@@ -61,6 +66,7 @@ This runs a local web server on your computer that you can
 access by visiting in the browser: http://localhost:8000
 
 ![elm reactor in chrome web browser](https://user-images.githubusercontent.com/194400/30550453-61a08464-9c8f-11e7-9cdb-cd91a5f095ee.png)
+
 
 ### 2. Type the initial code from the the Video
 
@@ -86,8 +92,10 @@ main =
     show 42
 ```
 
+
 ### 3. Install `elm-graphics` Package
 
+The Tetris tutorial requires "Graphics": https://github.com/evancz/elm-graphics <br />
 In your terminal, type:
 
 ```sh
