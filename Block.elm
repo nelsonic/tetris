@@ -1,6 +1,6 @@
 module Block exposing (..)
 
-import Graphics.Element
+import Html exposing (..)
 
 
 main =

@@ -22,7 +22,8 @@ that have played computer/video games...
 ![Tetris Game Play GIF](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tetris_basic_game.gif/220px-Tetris_basic_game.gif)
 
 If you have _never_ played it, try now:
-https://tetris.com/play-tetris
+https://tetris.com/play-tetris <br />
+And, read the history: https://en.wikipedia.org/wiki/Tetris
 
 
 ## _How_?
@@ -84,3 +85,17 @@ import Graphics.Element
 main =
     show 42
 ```
+
+### 3. Install 
+
+In your terminal, type:
+
+```sh
+elm-package install evancz/elm-graphics
+```
+
+You should see something like this:
+![elm-package install evancz/elm-graphics](https://user-images.githubusercontent.com/194400/30551769-8b2d8936-9c93-11e7-9cf9-dd43b2947ff3.png)
+
+> Again, thanks to StackOverflow: 
+https://stackoverflow.com/questions/41408360/what-happened-to-graphics-package-in-elm-0-18
